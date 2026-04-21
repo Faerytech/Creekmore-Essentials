@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Creekmore Essentials</title>
+  <meta name="description" content="Get in touch with Creekmore Essentials — questions, custom orders, wholesale inquiries welcome." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><img src="Images/logo.jpg" alt="Creekmore Essentials" /></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== PAGE HEADER ===== -->
+  <div class="page-header">
+    <span class="section-label">Let's Talk</span>
+    <h1 class="section-heading">Contact Us</h1>
+    <p class="section-body">Questions about an order, custom requests, or just want to say hello? Reach out — Deanna personally reads every message.</p>
+  </div>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="contact-section">
+    <div class="contact-grid">
+
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h3>Deanna Martino</h3>
+
+        <div class="contact-detail">
+          <span class="contact-detail-label">Phone</span>
+          <p class="contact-detail-value"><a href="tel:6014413668">(601) 441-3668</a></p>
+        </div>
+
+        <div class="contact-detail">
+          <span class="contact-detail-label">Email</span>
+          <p class="contact-detail-value"><a href="mailto:martino3668@gmail.com">martino3668@gmail.com</a></p>
+        </div>
+
+        <div class="contact-detail">
+          <span class="contact-detail-label">Location</span>
+          <p class="contact-detail-value">Hattiesburg, MS 39402</p>
+        </div>
+
+        <div class="contact-detail">
+          <span class="contact-detail-label">Hours</span>
+          <p class="contact-detail-value">Always available — we'll get back to you as soon as possible.</p>
+        </div>
+
+        <div class="contact-detail">
+          <span class="contact-detail-label">Also Find Us At</span>
+          <p class="contact-detail-value">Artecera · Hattiesburg, MS<br>In-store shopping available</p>
+        </div>
+
+        <div class="contact-social">
+          <p>Follow Along</p>
+          <a href="https://www.facebook.com/profile.php?id=61579328254378" target="_blank">
+            Facebook — Creekmore Essentials →
+          </a>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <!-- Formspree endpoint — replace XXXXXXXX with Deanna's Formspree ID -->
+      <form class="contact-form" action="https://formspree.io/f/XXXXXXXX" method="POST">
+
+        <div class="form-group">
+          <label class="form-label" for="name">Your Name</label>
+          <input class="form-input" type="text" id="name" name="name" placeholder="Jane Smith" required />
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="email">Email Address</label>
+          <input class="form-input" type="email" id="email" name="email" placeholder="you@example.com" required />
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="subject">Subject</label>
+          <select class="form-select" id="subject" name="subject">
+            <option value="">Select a topic...</option>
+            <option value="order">Order Question</option>
+            <option value="custom">Custom / Bulk Order</option>
+            <option value="wholesale">Wholesale Inquiry</option>
+            <option value="general">General Question</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="message">Message</label>
+          <textarea class="form-textarea" id="message" name="message" placeholder="Tell us what you're looking for..." required></textarea>
+        </div>
+
+        <div class="form-submit">
+          <button type="submit" class="btn-primary">Send Message</button>
+        </div>
+
+      </form>
+
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <p class="footer-brand-name">Creekmore Essentials</p>
+        <p class="footer-tagline">Luxury handmade goat milk soaps and body products, crafted by hand in Hattiesburg, Mississippi.</p>
+      </div>
+      <div>
+        <p class="footer-heading">Navigate</p>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-heading">Get in Touch</p>
+        <p class="footer-contact-item"><a href="tel:6014413668">(601) 441-3668</a></p>
+        <p class="footer-contact-item"><a href="mailto:martino3668@gmail.com">martino3668@gmail.com</a></p>
+        <p class="footer-contact-item">Hattiesburg, MS 39402</p>
+        <p class="footer-contact-item" style="margin-top:1rem;"><a href="https://www.facebook.com/profile.php?id=61579328254378" target="_blank">Facebook Page →</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copyright">&copy; 2025 Creekmore Essentials by Deanna Martino. All rights reserved.</p>
+      <p class="footer-made-by">Site by <a href="https://faerytech.net" target="_blank">Faery Tech</a></p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

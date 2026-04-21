@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shop — Creekmore Essentials</title>
+  <meta name="description" content="Shop handmade luxury goat milk soaps, body butters, beard care, and more by Creekmore Essentials." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><img src="Images/logo.jpg" alt="Creekmore Essentials" /></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html" class="active">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== SHOP HERO ===== -->
+  <div class="page-header">
+    <span class="section-label">Handcrafted in Hattiesburg, MS</span>
+    <h1 class="section-heading">The Shop</h1>
+    <p class="section-body">Every product is made by hand in small batches with premium ingredients. Prices are estimated — Deanna will confirm final pricing.</p>
+    <div class="shop-categories" style="margin-top:2rem;">
+      <button class="category-btn active" onclick="scrollToSection('soaps')">Goat Milk Soaps</button>
+      <button class="category-btn" onclick="scrollToSection('body-butter')">Body Butter</button>
+      <button class="category-btn" onclick="scrollToSection('beard')">Beard Care</button>
+      <button class="category-btn" onclick="scrollToSection('extras')">Balms & More</button>
+      <button class="category-btn" onclick="scrollToSection('coming-soon')">Candles</button>
+      <button class="category-btn" onclick="scrollToSection('coming-soon')" style="border-color: var(--sage); color: var(--sage);">✦ Coming Soon</button>
+    </div>
+  </div>
+
+  <!-- ===== GOAT MILK SOAPS ===== -->
+  <section class="shop-section" id="soaps">
+    <div class="section-inner">
+      <p class="shop-category-heading">Category One</p>
+      <h2 class="shop-category-title">Goat Milk Soaps</h2>
+      <p class="shop-category-desc">Rich, creamy bars made with real goat milk for a gentle lather that leaves skin soft. Each bar is hand-poured and hand-cut — no two are exactly alike.</p>
+
+      <div class="shop-grid">
+
+        <div class="shop-item">
+          <div class="shop-item-image">
+            <img src="Images/3.jpg" alt="Naked Goat Milk Soap" />
+          </div>
+          <div class="shop-item-info">
+            <h3 class="shop-item-name">Naked</h3>
+            <p class="shop-item-scent">Unscented — pure goat milk goodness</p>
+            <p class="shop-item-ingredients">Olive Oil · Coconut Oil · Goat Milk · Cocoa Butter · Almond Oil · Castor Oil · Vitamin E</p>
+            <div class="shop-item-footer">
+              <span class="shop-item-price">$10.00</span>
+              <!-- Stripe buy button goes here -->
+              <button class="btn-add-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <div class="shop-item-image">
+            <img src="Images/8.jpg" alt="Cherry Blossom Soap" />
+          </div>
+          <div class="shop-item-info">
+            <h3 class="shop-item-name">Cherry Blossom</h3>
+            <p class="shop-item-scent">Soft floral fragrance</p>
+            <p class="shop-item-ingredients">Olive Oil · Coconut Oil · Goat Milk · Cocoa Butter · Almond Oil · Castor Oil · Vitamin E · Fragrance</p>
+            <div class="shop-item-footer">
+              <span class="shop-item-price">$10.00</span>
+              <button class="btn-add-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <div class="shop-item-image">
+            <img src="Images/5.jpg" alt="Cocoa Mint Soap" />
+          </div>
+          <div class="shop-item-info">
+            <h3 class="shop-item-name">Cocoa Mint</h3>
+            <p class="shop-item-scent">Rich cocoa with a cool mint finish</p>
+            <p class="shop-item-ingredients">Olive Oil · Coconut Oil · Goat Milk · Cocoa Butter · Almond Oil · Castor Oil · Vitamin E · Fragrance</p>
+            <div class="shop-item-footer">
+              <span class="shop-item-price">$10.00</span>
+              <button class="btn-add-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <div class="shop-item-image">
+            <img src="Images/12.jpg" alt="Night Skies Soap" />
+          </div>
+          <div class="shop-item-info">
+            <h3 class="shop-item-name">Night Skies</h3>
+            <p class="shop-item-scent">Dark, moody, celestial fragrance</p>
+            <p class="shop-item-ingredients">Olive Oil · Coconut Oil · Goat Milk · Cocoa Butter · Almond Oil · Castor Oil · Vitamin E · Fragrance</p>
+            <div class="shop-item-footer">
+              <span class="shop-item-price">$10.00</span>
+              <button class="btn-add-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <div class="shop-item-image">
+            <img src="Images/17.jpg" alt="Tobacco and Bay Soap" />
+          </div>
+          <div class="shop-item-info">
+            <h3 class="shop-item-name">Tobacco & Bay</h3>
+            <p class="shop-item-scent">Warm, earthy, and sophisticated</p>
+            <p class="shop-item-ingredients">Olive Oil · Coconut Oil · Goat Milk · Cocoa Butter · Almond Oil · Castor Oil · Vitamin E · Fragrance</p>
+            <div class="shop-item-footer">
+              <span class="shop-item-price">$10.00</span>
+              <button class="btn-add-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <div class="shop-item-image">
+            <img src="Images/10.jpg" alt="Honey Citrus Soap" />
+          </div>
+          <div class="shop-item-info">
+            <h3 class="shop-item-name">Honey Citrus</h3>
+            <p class="shop-item-scent">Bright citrus with warm honey sweetness</p>
+            <p class="shop-item-ingredients">Olive Oil · Coconut Oil · Goat Milk · Cocoa Butter · Almond Oil · Castor Oil · Vitamin E · Fragrance</p>
+            <div class="shop-item-footer">
+              <span class="shop-item-price">$10.00</span>
+              <button class="btn-add-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <div class="shop-item-image">
+            <img src="Images/4.jpg" alt="Lemon Loofah Soap" />
+          </div>
+          <div class="shop-item-info">
+            <h3 class="shop-item-name">Lemon Loofah</h3>
+            <p class="shop-item-scent">Bright lemon with exfoliating loofah</p>
+            <p class="shop-item-ingredients">Olive Oil · Coconut Oil · Goat Milk · Cocoa Butter · Almond Oil · Castor Oil · Vitamin E · Fragrance</p>
+            <div class="shop-item-footer">
+              <span class="shop-item-price">$10.00</span>
+              <button class="btn-add-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <div class="shop-item-image">
+            <img src="Images/1.jpg" alt="Oatmeal Goat Milk Soap" />
+          </div>
+          <div class="shop-item-info">
+            <h3 class="shop-item-name">Oatmeal</h3>
+            <p class="shop-item-scent">Soothing oats for sensitive or dry skin</p>
+            <p class="shop-item-ingredients">Olive Oil · Coconut Oil · Goat Milk · Cocoa Butter · Almond Oil · Castor Oil · Vitamin E · Oats</p>
+            <div class="shop-item-footer">
+              <span class="shop-item-price">$10.00</span>
+              <button class="btn-add-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BODY BUTTER ===== -->
+  <section class="shop-section" id="body-butter" style="background-color: var(--cream);">
+    <div class="section-inner">
+      <p class="shop-category-heading">Category Two</p>
+      <h2 class="shop-category-title">Whipped Tallow Body Butter</h2>
+      <p class="shop-category-desc">Tallow-based body butter whipped into a rich, cloud-like texture. Made with raw honey, mango butter, and avocado oil — absorbs beautifully and leaves skin deeply moisturized.</p>
+
+      <div class="shop-grid">
+
+        <div class="shop-item">
+          <div class="shop-item-image">
+            <img src="Images/whippedtallowbodybutter.jpg" alt="Sandalwood Suave Whipped Tallow Body Butter" />
+          </div>
+          <div class="shop-item-info">
+            <h3 class="shop-item-name">Sandalwood Suave</h3>
+            <p class="shop-item-scent">Warm, woody, unmistakably luxurious</p>
+            <p class="shop-item-ingredients">Tallow · Mango Butter · Shea Butter · Raw Honey · Avocado Oil · Vitamin E Oil · Fragrance</p>
+            <div class="shop-item-footer">
+              <span class="shop-item-price">$14.00</span>
+              <button class="btn-add-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <div class="shop-item-image">
+            <img src="Images/whippedtallowbodybutter.jpg" alt="Unscented Whipped Tallow Body Butter" />
+          </div>
+          <div class="shop-item-info">
+            <h3 class="shop-item-name">Unscented</h3>
+            <p class="shop-item-scent">Fragrance-free — gentle for sensitive skin</p>
+            <p class="shop-item-ingredients">Tallow · Mango Butter · Shea Butter · Raw Honey · Avocado Oil · Vitamin E Oil</p>
+            <div class="shop-item-footer">
+              <span class="shop-item-price">$14.00</span>
+              <button class="btn-add-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <div class="shop-item-image">
+            <img src="Images/whippedtallowbodybutter.jpg" alt="Bee Tallow and Honey Whipped Body Butter" />
+          </div>
+          <div class="shop-item-info">
+            <h3 class="shop-item-name">Bee Tallow & Honey</h3>
+            <p class="shop-item-scent">Sweet honey warmth, deeply nourishing</p>
+            <p class="shop-item-ingredients">Tallow · Mango Butter · Shea Butter · Raw Honey · Avocado Oil · Vitamin E Oil · Fragrance</p>
+            <div class="shop-item-footer">
+              <span class="shop-item-price">$14.00</span>
+              <button class="btn-add-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BEARD CARE ===== -->
+  <section class="shop-section" id="beard">
+    <div class="section-inner">
+      <p class="shop-category-heading">Category Three</p>
+      <h2 class="shop-category-title">Beard Care</h2>
+      <p class="shop-category-desc">Grooming products that actually work — made with the same quality ingredients as everything else we make.</p>
+
+      <div class="shop-grid">
+
+        <div class="shop-item">
+          <div class="shop-item-image">
+            <img src="Images/23.jpg" alt="Beard Balm" />
+          </div>
+          <div class="shop-item-info">
+            <h3 class="shop-item-name">Beard Balm</h3>
+            <p class="shop-item-scent">Available scented or unscented</p>
+            <p class="shop-item-ingredients">Beeswax · Shea Butter · Cocoa Butter · Jojoba Oil · Sunflower Oil · Avocado Oil · Castor Oil</p>
+            <div class="shop-item-footer">
+              <span class="shop-item-price">$12.00</span>
+              <button class="btn-add-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <div class="shop-item-image">
+            <img src="Images/21.jpg" alt="Beard Oil" />
+          </div>
+          <div class="shop-item-info">
+            <h3 class="shop-item-name">Beard Oil</h3>
+            <p class="shop-item-scent">Available scented or unscented</p>
+            <p class="shop-item-ingredients">Jojoba Oil · Almond Oil · Avocado Oil · Primrose Oil · Castor Oil</p>
+            <div class="shop-item-footer">
+              <span class="shop-item-price">$12.00</span>
+              <button class="btn-add-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BALMS & EXTRAS ===== -->
+  <section class="shop-section" id="extras" style="background-color: var(--cream);">
+    <div class="section-inner">
+      <p class="shop-category-heading">Category Four</p>
+      <h2 class="shop-category-title">Balms, Salves & More</h2>
+      <p class="shop-category-desc">The finishing touches — healing balms, cuticle care, sugar scrubs, and lip balms crafted with the same care as everything else.</p>
+
+      <div class="shop-grid">
+
+        <div class="shop-item">
+          <div class="shop-item-image">
+            <img src="Images/handsalvecuticleoil.jpg" alt="Healing Hand Salve" />
+          </div>
+          <div class="shop-item-info">
+            <h3 class="shop-item-name">Healing Hand Salve</h3>
+            <p class="shop-item-scent">Lavender — soothing and restorative</p>
+            <p class="shop-item-ingredients">Almond Oil · Mango Butter · Sunflower Oil · Jojoba Oil · Vitamin E · Beeswax</p>
+            <div class="shop-item-footer">
+              <span class="shop-item-price">$10.00</span>
+              <button class="btn-add-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <div class="shop-item-image">
+            <img src="Images/handsalvecuticleoil.jpg" alt="Cuticle Oil" />
+          </div>
+          <div class="shop-item-info">
+            <h3 class="shop-item-name">Cuticle Oil</h3>
+            <p class="shop-item-scent">Nourishing blend for hands and nails</p>
+            <p class="shop-item-ingredients">Almond Oil · Mango Butter · Sunflower Oil · Jojoba Oil · Vitamin E · Beeswax</p>
+            <div class="shop-item-footer">
+              <span class="shop-item-price">$10.00</span>
+              <button class="btn-add-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <div class="shop-item-image">
+            <img src="Images/handandbodysugarscrub.jpg" alt="Sugar Scrub" />
+          </div>
+          <div class="shop-item-info">
+            <h3 class="shop-item-name">Sugar Scrub</h3>
+            <p class="shop-item-scent">Available scented or unscented</p>
+            <p class="shop-item-ingredients">Olive Oil · Coconut Oil · Almond Oil · Castor Oil · Vitamin E · White Sugar</p>
+            <div class="shop-item-footer">
+              <span class="shop-item-price">$12.00</span>
+              <button class="btn-add-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <div class="shop-item-image">
+            <img src="Images/1.jpg" alt="Lip Balm" />
+          </div>
+          <div class="shop-item-info">
+            <h3 class="shop-item-name">Lip Balm</h3>
+            <p class="shop-item-scent">Available flavored or unscented</p>
+            <p class="shop-item-ingredients">Shea Butter · Beeswax · Coconut Oil · Vitamin E</p>
+            <div class="shop-item-footer">
+              <span class="shop-item-price">$6.00</span>
+              <button class="btn-add-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Stripe checkout note -->
+      <div class="stripe-note">
+        <p>Secure checkout powered by Stripe. All orders are handmade in small batches — please allow 3–5 business days for processing. Questions? <a href="contact.html" style="border-bottom:1px solid var(--border);">Contact Deanna</a>.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== CANDLES ===== -->
+  <section class="shop-section" style="background-color: var(--warm-white);">
+    <div class="section-inner">
+      <p class="shop-category-heading">Category Five</p>
+      <h2 class="shop-category-title">Candles</h2>
+      <p class="shop-category-desc">Hand-poured candles in beautiful glass vessels — the perfect complement to your self-care routine. Scents available seasonally.</p>
+
+      <div class="shop-grid">
+        <div class="shop-item">
+          <div class="shop-item-image">
+            <img src="Images/24.jpg" alt="Creekmore Essentials Candles" />
+          </div>
+          <div class="shop-item-info">
+            <h3 class="shop-item-name">Pumpkin Spice</h3>
+            <p class="shop-item-scent">Warm, cozy, seasonal</p>
+            <p class="shop-item-ingredients">Hand-poured · Glass vessel · Cotton wick</p>
+            <div class="shop-item-footer">
+              <span class="shop-item-price">$12.00</span>
+              <button class="btn-add-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <div class="shop-item-image">
+            <img src="Images/24.jpg" alt="Creekmore Essentials Candles" />
+          </div>
+          <div class="shop-item-info">
+            <h3 class="shop-item-name">Honeysuckle</h3>
+            <p class="shop-item-scent">Light, floral, fresh</p>
+            <p class="shop-item-ingredients">Hand-poured · Glass vessel · Cotton wick</p>
+            <div class="shop-item-footer">
+              <span class="shop-item-price">$12.00</span>
+              <button class="btn-add-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COMING SOON ===== -->
+  <section class="shop-section" id="coming-soon" style="background-color: var(--sage-pale); border-top: 1px solid var(--sage-light);">
+    <div class="section-inner">
+      <p class="shop-category-heading">Coming Soon</p>
+      <h2 class="shop-category-title">Hand & Body <em>Sugar Scrub</em></h2>
+      <p class="shop-category-desc">Something new is almost here. Deanna's been working on a luxurious hand and body sugar scrub — and early testers say it feels absolutely amazing. Available soon in delicious summer scents.</p>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; margin-top: 2rem;">
+        <div>
+          <img src="Images/handandbodysugarscrub.jpg" alt="Hand and Body Sugar Scrub coming soon" style="width:100%; border: 1px solid var(--sage-light);" />
+        </div>
+        <div>
+          <span class="section-label">What's inside</span>
+          <p style="font-family: var(--font-display); font-size: 1.1rem; font-style: italic; color: var(--ink); margin-bottom: 1rem; line-height: 1.7;">"It feels AMAZING and smells like delicious summer!"</p>
+          <ul class="ingredients-list">
+            <li>Olive Oil</li>
+            <li>Coconut Oil</li>
+            <li>Almond Oil</li>
+            <li>Castor Oil</li>
+            <li>Vitamin E Oil</li>
+            <li>White Sugar</li>
+          </ul>
+          <p style="font-size: 0.8rem; color: var(--sage); margin-top: 1.5rem; font-style: italic;">Notify me when available → <a href="contact.html" style="border-bottom: 1px solid var(--sage);">Send a message</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <p class="footer-brand-name">Creekmore Essentials</p>
+        <p class="footer-tagline">Luxury handmade goat milk soaps and body products, crafted by hand in Hattiesburg, Mississippi.</p>
+      </div>
+      <div>
+        <p class="footer-heading">Navigate</p>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-heading">Get in Touch</p>
+        <p class="footer-contact-item"><a href="tel:6014413668">(601) 441-3668</a></p>
+        <p class="footer-contact-item"><a href="mailto:martino3668@gmail.com">martino3668@gmail.com</a></p>
+        <p class="footer-contact-item">Hattiesburg, MS 39402</p>
+        <p class="footer-contact-item" style="margin-top:1rem;"><a href="https://www.facebook.com/profile.php?id=61579328254378" target="_blank">Facebook Page →</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copyright">&copy; 2025 Creekmore Essentials by Deanna Martino. All rights reserved.</p>
+      <p class="footer-made-by">Site by <a href="https://faerytech.net" target="_blank">Faery Tech</a></p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
